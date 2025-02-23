@@ -2,7 +2,9 @@
 
     public class FizzBuzz
     {
-        public string PlayFizzBuzz(int number) // Metoda instancyjna (bez static)
+
+    //create method PlayFizzBuzz
+        public string PlayFizzBuzz(int number) 
         {
             if (number % 3 == 0 && number % 5 == 0)
             {
@@ -18,6 +20,7 @@
             }
             else
             {
+            //Convert int number to String 
                 return number.ToString();
             }
         }
